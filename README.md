@@ -16,9 +16,9 @@ El Principio de Abierto-Cerrado, del inglés "The Open-Close Principle (OCP)", n
 
     2.- Extender la funcionalidad de un módulo no implica cambios en el código fuente de ese módulo en sí mismo.
 
-<div aling="justify">
+<center>
     <img  src="ejemploCoche.png" />
-</div>
+</center>
 
 
 
