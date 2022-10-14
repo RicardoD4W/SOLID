@@ -6,7 +6,9 @@
 
 
 
-# OCP
+\begin{center}
+## OCP
+\end{center}
 
 <p>
 
