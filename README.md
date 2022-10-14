@@ -1,7 +1,7 @@
 # O(Principio de abierto/cerrado) // L(Principio de sustitución de Liskov)
 
-* Principio de abierto/cerrado
-..1. hola1
+# OL
 
-* Principio de sustitución de Liskov
-⋅⋅⋅ hola1
+[Custom foo description](#foo)
+
+# Foo
