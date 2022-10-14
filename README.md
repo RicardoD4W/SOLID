@@ -8,11 +8,13 @@
 
 # OCP
 
-<pre>
+<p>
 
 <h3>    
 El Principio de Abierto-Cerrado, del inglés "The Open-Close Principle (OCP)", nos viene a decir que cualquier entidad software (clases, módulos, funciones, etc.) debe de estar abierta para ser extendida en funcionalidad pero cerrada para ser modificada. Es decir, una clase que cumpla con OCP tiene estas dos características:
 </h3>
+
+<pre>
 
    <h4> 1.- La funcionalidad del módulo puede cambiarse o extenderse en base a los cambios que requiera el sistema. </h4>
 
