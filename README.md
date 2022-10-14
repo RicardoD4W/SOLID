@@ -1,7 +1,18 @@
-# O(Principio de abierto/cerrado) // L(Principio de sustitución de Liskov)
+# Parte Ricardo
 
-# OL
 
-[Custom foo description](#foo)
 
-# Foo
+<ol> 
+    
+    O
+
+</ol>
+
+    <li>
+            hol
+    </li>
+
+
+[Custom foo description](#O)
+
+# O
