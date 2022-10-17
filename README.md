@@ -53,7 +53,7 @@ class Portatil extends Ordenador {
 }
 </pre>
 
-En nuestro negocio todo va de maravilla y ahora queremos extender un poco más nuestro catalogo de productos, así que decidimos optar por empezar a vender ordenadores portátiles. Un atributo útil de un portátil es el tamaño de la pantalla integrada, pero como bien sabemos esto solo esta presente en los portátiles y no ordenadores de escritorio (generalizando), y sabiendo que JavaScript solo soprta una clase padre, podemos hacer esto:
+En nuestro negocio todo va de maravilla y ahora queremos extender un poco más nuestro catalogo de productos, así que decidimos optar por empezar a vender ordenadores portátiles. Un atributo útil de un portátil es el tamaño de la pantalla integrada, pero como bien sabemos esto solo esta presente en los portátiles y no ordenadores de escritorio (generalizando), y sabiendo que JavaScript solo soporta una clase padre, podemos hacer esto:
 
 <pre>
   class Ordenador {
