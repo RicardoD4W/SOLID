@@ -21,6 +21,7 @@ El principio nos indica que una clase debe de implementar únicamente las interf
 
 Imaginemos que tenemos un negocio de venta de ordenadores de escritorio, sabemos que todas las ordenadores deberían de extender de la clase Ordenador y tendríamos algo como esto:
 
+<pre>
 class Ordenador {
   marca;
   modelo;
@@ -50,11 +51,12 @@ class Ordenador {
 class Portatil extends Ordenador {
    ...
 }
+</pre>
 
 En nuestro negocio todo va de maravilla y ahora queremos extender un poco más nuestro catalogo de productos, así que decidimos optar por empezar a vender ordenadores portátiles. Un atributo útil de un portátil es el tamaño de la pantalla integrada, pero como bien sabemos esto solo esta presente en los portátiles y no ordenadores de escritorio (generalizando), y sabiendo que JavaScript solo soprta una clase padre, podemos hacer esto:
 
 <pre>
-    class Ordenador {
+  class Ordenador {
   marca;
   modelo;
 
