@@ -1,4 +1,4 @@
-# Parte MEDINA
+# Parte Medina
 
 
 * [Principio de segregación de la interfaz (ISP)](#ISP)
