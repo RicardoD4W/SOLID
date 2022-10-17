@@ -70,7 +70,7 @@ El principio de sustitución de Liskov nos dice que si en alguna parte de nuestr
 <img width="auto" height="500px" src="image001.png" />
 Este es un ejemplo de LSP ya que deberíamos poder cambiar las clases [Vehículo], por sus hijas sin que se den errores y problemas.
 
-<img width="auto" height="500px" src="ejemploLSPbien.png" />
+<img width="auto" height="600px" src="ejemploLSPbien.png" />
 Este es un ejemplo de LSP bien hecho ya que podemos cambiar la  [Operacion] a placer sin que se den errores, un mal ejemplo habría sido uno donde en vez de tener "Operador1" y "Operador2" tendría funciones como "suma" o "resta".
 
 
