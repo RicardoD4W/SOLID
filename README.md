@@ -127,6 +127,9 @@ En este principio se establecen que las dependencias deben de estar en las abstr
 ---
 
 <p>
+  
+Imagina que tenemos una clase que nos permite enviar un correo:
+
 <pre>
   class Correo {
   provider;
