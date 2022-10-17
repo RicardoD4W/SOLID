@@ -106,6 +106,7 @@ const Portatil = (clasePadre) => {
 
 </p>
 
+---
 
 # DIP
 
