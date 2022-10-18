@@ -1,2 +1,2 @@
 # SOLID parte S
-La parte de juan
+La parte de juan 2
