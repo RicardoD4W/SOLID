@@ -1,3 +1,52 @@
+# Parte Juan
+
+
+* [Principio de Responsabilidad Única](#SRP)
+
+
+# SRP
+
+<h3>    
+El primer principio de SOLID llamado Principio de Responsabilidad Única indica que una clase debería ser responsable de una única funcionalidad. En otras palabras, la clase solo debería tener una única razón para cambiar.
+</h3>
+<br><br>
+<h4>Beneficios del principio de responsabilidad única:</h4>
+
+<pre>
+   <h4> 1.- En relación al testing. Se simplifica 
+        porque una clase tiene una única responsabilidad.. </h4>
+   <h4> 2.- Se disminuye el acoplamiento pirque menor funcionalidad 
+        en una clase hará que esta tenga menos dependencias. </h4>
+   <h4> 3.- La organización de las clases y los paquetes 
+        será mejor y más sencillo. </h4>
+</pre>
+
+
+
+<p>
+<h3>Mal uso</h3>
+<img width="auto" height="400px" src="/imgS/maluso.png" />
+<br>
+Esta clase UserLogin tiene como responsabilidad realizar el proceso de login pero además le dimos la responsabilidad de de enviar mensajes al usuario.
+Este código viola el principio de responsabilidad unica. Está haciendo dos cosas con objetivos diferentes.
+<br>
+<h3>Buen uso</h3>
+<img width="auto" height="250px" src="/imgS/buenuso.png" />
+<br>
+¿Entonces qué deberíamos hacer?
+
+Sería conveniente separar la clase en dos. Una para lo específico del login y otra para la funcionalidad de envío de mensajes.
+
+
+
+
+
+
+
+
+
+
+
 # Parte Medina
 
 
@@ -231,7 +280,8 @@ Con este diseño, la clase [Conductor] cumple con OCP, pues está abierta a camb
 
 <p>
 
-<h3>    
+
+
 El principio de sustitución de Liskov nos dice que si en alguna parte de nuestro código estamos usando una clase, y esta clase es extendida, tenemos que poder utilizar cualquiera de las clases hijas y que el programa siga siendo válido.
 
 </h3>
@@ -259,9 +309,10 @@ Este es un ejemplo de LSP ya que deberíamos poder cambiar las clases [Vehículo
 Este es un ejemplo de LSP bien hecho ya que podemos cambiar la  [Operacion] a placer sin que se den errores, un mal ejemplo habría sido uno donde en vez de tener "Operador1" y "Operador2" tendría funciones como "suma" o "resta".
 
 
+
 </p>
 
 
-<p>
 
+<p>
 
