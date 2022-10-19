@@ -27,13 +27,13 @@ El Principio de Responsibilidad única, del inglés "Single Responsibility Princ
 ---
 
 <p>
-
-<img width="auto" height="250px" src="/imgS/maluso.png" />
+<h3>Mal uso</h3>
+<img width="auto" height="400px" src="/imgS/maluso.png" />
 <br>
 Esta clase UserLogin tiene como responsabilidad realizar el proceso de login pero además le dimos la responsabilidad de de enviar mensajes al usuario.
 Este código viola el principio de responsabilidad unica. Está haciendo dos cosas con objetivos diferentes.
 <br>
-
+<h3>Buen uso</h3>
 <img width="auto" height="250px" src="/imgS/buenuso.png" />
 <br>
 ¿Entonces qué deberíamos hacer?
