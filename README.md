@@ -10,7 +10,7 @@
 <p>
 
 <h3>    
-El Principio de Responsibilidad única, del inglés "Single Responsibility Principle", dice que “una clase debería tener una, y solo una, razón para cambiar”. Es esto, precisamente, “razón para cambiar”, lo que Robert C. Martin identifica como “responsabilidad”.
+El primer principio de SOLID llamado Principio de Responsabilidad Única indica que una clase debería ser responsable de una única funcionalidad. En otras palabras, la clase solo debería tener una única razón para cambiar.
 </h3>
 <br><br>
 <h4>Beneficios del principio de responsabilidad única:</h4>
