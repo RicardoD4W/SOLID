@@ -184,7 +184,7 @@ class Portatil extends Ordenador {
 
 En nuestro negocio todo va de maravilla y ahora queremos extender un poco más nuestro catalogo de productos, así que decidimos optar por empezar a vender ordenadores portátiles. Un atributo útil de un portátil es el tamaño de la pantalla integrada, pero como bien sabemos esto solo esta presente en los portátiles y no ordenadores de escritorio (generalizando), podemos hacer esto:
 
-```python
+```js
   class Ordenador {
   marca;
   modelo;
@@ -258,7 +258,7 @@ En este principio se establecen que las dependencias deben de estar en las abstr
   
 Imagina que tenemos una clase que nos permite enviar un correo:
 
-<pre>
+```js
   class Correo {
   provider;
 
@@ -275,13 +275,13 @@ Imagina que tenemos una clase que nos permite enviar un correo:
 var correo = new Correo();
 correo.enviar('hola!');
 
-</pre>
+```
 
 En este ejemplo se puede ver que se está rompiendo la regla, puesto que la clase correo depende del proveedor de servicio, ¿qué pasaría si después queremos usar Yahoo y no Gmail?
 
 Para solucionar esto debemos eliminar esa dependencia y añadirla como una abstracción.
 
-<pre>
+```js
   class GmailProveedor {
   constructor() {
     // Levantar una instancia de google mail, este código es con fin de demostración.
@@ -303,7 +303,7 @@ var gmail = new GmailProveedor();
 var correo = new Correo(gmail);
 correo.enviar('hola!');
 
-</pre>
+```
 
 De esta forma ya no nos importa el proveedor ni la forma en que implementa el envío de correos el proveedor, la clase de Correo solo se ocupa de una única cosa, pedirle al proveedor que envíe un correo.
 
