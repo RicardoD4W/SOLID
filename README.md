@@ -1,7 +1,10 @@
-# Parte Juan
 
 
 * [Principio de Responsabilidad Única](#SRP)
+* [Principio de abierto/cerrado (OCP)](#OCP)
+* [Principio de sustitución de Liskov (LSP)](#LSP)
+* [Principio de segregación de la interfaz (ISP)](#ISP)
+* [Principio de inversión de la dependencia (DIP)](#DIP)
 
 
 # SRP
@@ -43,11 +46,8 @@ Sería conveniente separar la clase en dos. Una para lo específico del login y 
 
 
 
-# Parte Ricardo
 
 
-* [Principio de abierto/cerrado (OCP)](#OCP)
-* [Principio de sustitución de Liskov (LSP)](#LSP)
 
 
 
@@ -134,11 +134,8 @@ Este es un ejemplo de LSP bien hecho ya que podemos cambiar la  [Operacion] a pl
 
 
 
-# Parte Medina
 
 
-* [Principio de segregación de la interfaz (ISP)](#ISP)
-* [Principio de inversión de la dependencia (DIP)](#DIP)
 
 
 
